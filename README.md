@@ -8,11 +8,13 @@ A Python program that prints step-by-step sandwich-making instructions paired wi
 Grade: 100
 AI use: ChatGPT was used to help generate the ASCII art visuals, as permitted by the assignment guidelines. The instructional program logic and sequencing were written independently. Full disclosure is included as comments at the top of the file.
 
+
 Lottery Ticket Number Generator
 lottery_tickets.py
 A command-line program that generates a "winning" lottery ticket based on a user-provided step pattern, collects a player's ticket numbers with input validation (range checks, duplicate checks), and compares the two to determine if the player won. Uses constants to avoid magic numbers, list manipulation, and exception handling throughout for invalid input.
 Key concepts used: functions, constants, input validation, exception handling (try/except), list operations, list copying ([:]), string formatting
 Grade: 100
+
 
 Silly Tower Climb
 silly_tower.py
@@ -20,11 +22,13 @@ A number-guessing/climbing game where the player enters climb distances to reach
 Key concepts used: functions, constants, nested while loops, modulo operator, conditional logic (if/elif/else), input validation
 Grade: 100
 
+
 Skyscraper Drawing (Turtle Graphics)
 skyscraper.py
 A program that uses Python's turtle graphics module to draw a skyscraper with a user-specified number of floors, including stacked floor rectangles and triangular "window" shapes on each floor. Involves coordinate geometry (calculating x/y positions to center and stack shapes) and modular drawing functions.
 Key concepts used: functions, the turtle graphics module, coordinate math, loops, code modularity (separating drawing logic into small reusable functions)
 Grade: 100
+
 
 Color & Quantity Bar Chart (Turtle Graphics)
 color_and_quantity.py
@@ -32,11 +36,22 @@ A program that draws a simple bar chart using Python's turtle graphics module. T
 Key concepts used: the turtle graphics module, lists, loops, coordinate math, user input, proportional scaling (quantity converted to bar height as a percentage of screen height)
 Grade: 100
 
+
 Odd Substitutions (Mad Libs Generator)
 odd_substitutions.py
 A Mad Libs-style program that asks the user for a set of words (adjective, animal, verbs, etc.) and inserts them into a modified version of "The Itsy Bitsy Spider" nursery rhyme using formatted strings.
 Key concepts used: user input, f-strings/string formatting, sequencing
 Grade: 90
+
+
+Adventure (Choose Your Own Adventure)
+adventure.py
+A branching, choose-your-own-adventure style program where the user
+navigates between locations (forest, meadow, river), with each choice
+building up a string that tracks the path taken back home.
+Key concepts used: functions calling other functions, branching control
+flow, string building/concatenation, recursion-like function chaining
+Grade: 78
 
 
           LABS
@@ -66,3 +81,28 @@ stacking_circles.py
 A program that uses Python's turtle graphics module to draw a stack of shrinking, color-cycling circles based on a user-provided starting radius and delta (shrink amount).
 Key concepts used: the turtle graphics module, loops, lists, user input
 Grade: 90 Collaboration: Paired assignment with a classmate (Lane)
+
+
+Time of Day (with Unit Testing)
+time_of_day.py + time_of_day_test.py
+A function that determines the time of day ("Morning," "Afternoon,"
+"Evening," "Late Night," or "INVALID") based on a 24-hour time input, paired
+with a set of automated unit tests written using pytest to verify the
+function's behavior across different cases.
+Key concepts used: functions, conditional logic (if/elif/else),
+automated unit testing with pytest, test-driven verification
+Grade: 78.5
+Collaboration: Paired assignment with a classmate (Diego)
+
+
+Sharing a Spaceship
+sharing_a_spaceship.py
+A program that takes input for two "aliens" (paint color and cargo weight),
+combines their colors using color-mixing logic, calculates combined baggage
+weight, and determines flight cost using tiered per-pound pricing.
+Key concepts used: functions, conditional logic, tiered/threshold-based
+calculations, f-strings with number formatting (:,.2f)
+Grade: 77.5
+Collaboration: Paired assignment with a classmate (Glory)
+
+
