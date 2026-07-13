@@ -106,3 +106,13 @@ Grade: 77.5
 Collaboration: Paired assignment with a classmate (Glory)
 
 
+Travel Log
+travel_log.py + mappings_module.py
+A travel log program that lets the user enter dates and locations visited,
+storing them in a dictionary that maps each date to a list of locations. Uses
+a separate custom module (mappings_module.py) to sort and print the
+organized results — the first multi-file program in this repo.
+Key concepts used: dictionaries, lists, custom modules/imports across
+multiple files, loops, user input
+Grade: 75
+Collaboration: Paired assignment with a classmate (Diego)
